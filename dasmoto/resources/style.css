@@ -1,0 +1,28 @@
+* {
+  font-family: Helvetica;
+}
+h1 {
+  font-size: 100px;
+  color: khaki;
+  text-align: center;
+  background-image: url("./images/pattern.jpeg"); /* I'm glad I used relative addressing on all the images in this project. I made a mistake in the pathing I initially specified on this page and learned from my error! "Relative" means relative to the containing file's working directory. If a stylesheet is not in the same directory as the html file, relative paths to resources will be different! MN */
+}
+h2 {
+  font-size: 32px;
+  color: white;
+}
+h1, h2, h3, .price {
+  font-weight: bold;
+}
+#brushes h2  {
+  background-color: mediumspringgreen;
+}
+#frames h2 {
+  background-color: lightcoral;
+}
+#paint h2 {
+  background-color: skyblue;
+}
+.price {
+  color: blue;
+}
